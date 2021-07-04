@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/analog_input.dir/main.cpp.o CMakeFiles/analog_input.dir/my_app.cpp.o -o analog_input  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 

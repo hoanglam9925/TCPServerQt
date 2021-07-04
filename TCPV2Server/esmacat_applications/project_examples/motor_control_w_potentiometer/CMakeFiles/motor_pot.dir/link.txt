@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/motor_pot.dir/main.cpp.o CMakeFiles/motor_pot.dir/my_app.cpp.o -o motor_pot  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 

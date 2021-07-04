@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/sales_kit.dir/main.cpp.o CMakeFiles/sales_kit.dir/my_app.cpp.o -o sales_kit  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 

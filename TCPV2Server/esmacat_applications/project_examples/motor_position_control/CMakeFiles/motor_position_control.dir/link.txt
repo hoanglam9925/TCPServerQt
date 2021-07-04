@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/motor_position_control.dir/main.cpp.o CMakeFiles/motor_position_control.dir/my_app.cpp.o -o motor_position_control  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 

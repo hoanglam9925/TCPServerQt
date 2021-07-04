@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/slaveinfo.dir/slaveinfo.c.o -o slaveinfo  ../../libethercat_driver.a ../../libesmacat.a ../../libethercat_driver.a -lpthread -lrt 

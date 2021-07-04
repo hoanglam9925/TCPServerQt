@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc-8  -Wall -Wextra -Werror -rdynamic CMakeFiles/slave_import_wizard.dir/slave_import_wizard.c.o -o slave_import_wizard  ../../../libethercat_driver.a -lpthread -lrt 

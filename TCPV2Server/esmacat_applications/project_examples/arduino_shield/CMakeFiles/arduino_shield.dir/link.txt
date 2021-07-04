@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/arduino_shield.dir/main.cpp.o CMakeFiles/arduino_shield.dir/my_app.cpp.o -o arduino_shield  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 

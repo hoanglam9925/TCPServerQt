@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Esmacat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\esmacat_slave_drivers\;CMake Files\esmacat_slave_drivers\utilities\;CMake Files\esmacat_slave_drivers\utilities\slave_import_wizard\;CMake Files\esmacat_applications\;CMake Files\esmacat_applications\my_project\;CMake Files\esmacat_applications\project_examples\;CMake Files\esmacat_applications\project_examples\analog_input\;CMake Files\esmacat_applications\project_examples\arduino_shield\;CMake Files\esmacat_applications\project_examples\motor_driver\;CMake Files\esmacat_applications\project_examples\loadcell_interface\;CMake Files\esmacat_applications\project_examples\digital_io\;CMake Files\esmacat_applications\project_examples\sales_kit\;CMake Files\esmacat_applications\project_examples\motor_position_control\;CMake Files\esmacat_applications\project_examples\motor_control_w_potentiometer\;CMake Files\esmacat_applications\project_examples\led_on\;CMake Files\esmacat_applications\project_examples\demo_kit\;CMake Files\ethercat_driver\;CMake Files\ethercat_driver\utilities\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esmacat">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/libesmacat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 esmacat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esmacat/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/libesmacat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 esmacat/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ethercat_driver">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/libethercat_driver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 ethercat_driver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ethercat_driver/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/libethercat_driver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 ethercat_driver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_import_wizard">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/slave_import_wizard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 slave_import_wizard"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_import_wizard/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/slave_import_wizard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 slave_import_wizard/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_slave_drivers/utilities/slave_import_wizard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_project">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/my_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 my_project"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_project/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/my_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 my_project/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/my_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="analog_input">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/analog_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 analog_input"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="analog_input/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/analog_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 analog_input/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/analog_input/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arduino_shield">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/arduino_shield" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 arduino_shield"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arduino_shield/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/arduino_shield" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 arduino_shield/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/arduino_shield/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_driver">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/motor_driver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 motor_driver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_driver/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/motor_driver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 motor_driver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="loadcell_interface">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/loadcell_interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 loadcell_interface"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="loadcell_interface/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/loadcell_interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 loadcell_interface/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/loadcell_interface/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digital_io">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/digital_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 digital_io"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digital_io/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/digital_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 digital_io/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/digital_io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sales_kit">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/sales_kit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 sales_kit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sales_kit/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/sales_kit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 sales_kit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/sales_kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_position_control">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/motor_position_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 motor_position_control"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_position_control/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/motor_position_control" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 motor_position_control/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_position_control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_pot">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/motor_pot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 motor_pot"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_pot/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/motor_pot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 motor_pot/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/motor_control_w_potentiometer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="led_on">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/led_on" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 led_on"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="led_on/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/led_on" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 led_on/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/led_on/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_kit">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/demo_kit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 demo_kit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_kit/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/demo_kit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 demo_kit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/esmacat_applications/project_examples/demo_kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slaveinfo">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/slaveinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 slaveinfo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slaveinfo/fast">
+				<Option output="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/slaveinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers"/>
+					<Add directory="/home/pi/Desktop/esmacat_master_software/esmacat_library"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 slaveinfo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/Desktop/Qt/TestV2Server/TCPV2Server/ethercat_driver/utilities/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/my_project/main.cpp">
+			<Option target="my_project"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/my_project/my_app.cpp">
+			<Option target="my_project"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/my_project/my_app.h">
+			<Option target="my_project"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/analog_input/main.cpp">
+			<Option target="analog_input"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/analog_input/my_app.cpp">
+			<Option target="analog_input"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/analog_input/my_app.h">
+			<Option target="analog_input"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/arduino_shield/main.cpp">
+			<Option target="arduino_shield"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/arduino_shield/my_app.cpp">
+			<Option target="arduino_shield"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/arduino_shield/my_app.h">
+			<Option target="arduino_shield"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/demo_kit/main.cpp">
+			<Option target="demo_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/demo_kit/my_app.cpp">
+			<Option target="demo_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/demo_kit/my_app.h">
+			<Option target="demo_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/digital_io/main.cpp">
+			<Option target="digital_io"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/digital_io/my_app.cpp">
+			<Option target="digital_io"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/digital_io/my_app.h">
+			<Option target="digital_io"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/led_on/main.cpp">
+			<Option target="led_on"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/led_on/my_app.cpp">
+			<Option target="led_on"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/led_on/my_app.h">
+			<Option target="led_on"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/loadcell_interface/main.cpp">
+			<Option target="loadcell_interface"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/loadcell_interface/my_app.cpp">
+			<Option target="loadcell_interface"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/loadcell_interface/my_app.h">
+			<Option target="loadcell_interface"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_control_w_potentiometer/main.cpp">
+			<Option target="motor_pot"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_control_w_potentiometer/my_app.cpp">
+			<Option target="motor_pot"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_control_w_potentiometer/my_app.h">
+			<Option target="motor_pot"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_driver/main.cpp">
+			<Option target="motor_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_driver/my_app.cpp">
+			<Option target="motor_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_driver/my_app.h">
+			<Option target="motor_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_position_control/main.cpp">
+			<Option target="motor_position_control"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_position_control/my_app.cpp">
+			<Option target="motor_position_control"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_position_control/my_app.h">
+			<Option target="motor_position_control"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/sales_kit/main.cpp">
+			<Option target="sales_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/sales_kit/my_app.cpp">
+			<Option target="sales_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/sales_kit/my_app.h">
+			<Option target="sales_kit"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/application.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/application.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/base_module.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/base_module.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/master.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/master.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/slave.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_library/slave.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/analog_input.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/analog_input.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/el3102.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/el3102.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/ethercat_arduino_shield_by_esmacat.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/ethercat_arduino_shield_by_esmacat.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/loadcell_interf.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/loadcell_interf.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/motordriver.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/drivers/motordriver.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/utilities/slave_import_wizard/slave_import_wizard.c">
+			<Option target="slave_import_wizard"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/osal/linux/osal.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux/nicdrv.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux/nicdrv.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux/oshw.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/oshw/linux/oshw.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatbase.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatbase.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatcoe.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatcoe.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatconfig.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatconfig.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatdc.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatdc.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercateoe.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercateoe.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatfoe.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatfoe.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatmain.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatmain.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatprint.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatprint.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatsoe.c">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/soem/ethercatsoe.h">
+			<Option target="ethercat_driver"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities/slaveinfo.c">
+			<Option target="slaveinfo"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_slave_drivers\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_slave_drivers\utilities\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_slave_drivers/utilities/slave_import_wizard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_slave_drivers\utilities\slave_import_wizard\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/my_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\my_project\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/analog_input/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\analog_input\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/arduino_shield/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\arduino_shield\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\motor_driver\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/loadcell_interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\loadcell_interface\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/digital_io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\digital_io\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/sales_kit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\sales_kit\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_position_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\motor_position_control\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/motor_control_w_potentiometer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\motor_control_w_potentiometer\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/led_on/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\led_on\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/esmacat_applications/project_examples/demo_kit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\esmacat_applications\project_examples\demo_kit\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ethercat_driver\"/>
+		</Unit>
+		<Unit filename="/home/pi/Desktop/esmacat_master_software/ethercat_driver/utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ethercat_driver\utilities\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

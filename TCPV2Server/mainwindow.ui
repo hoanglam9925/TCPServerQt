@@ -6,21 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>403</width>
-    <height>354</height>
+    <width>400</width>
+    <height>340</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>1</y>
+      <y>2</y>
       <width>381</width>
-      <height>281</height>
+      <height>261</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -34,7 +34,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QSpinBox" name="port">
+        <widget class="QSpinBox" name="txtPortNo">
          <property name="maximum">
           <number>999999</number>
          </property>
@@ -48,7 +48,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnStop">
+        <widget class="QPushButton" name="btnStopServer">
          <property name="text">
           <string>Stop</string>
          </property>
@@ -57,15 +57,26 @@
       </layout>
      </item>
      <item row="1" column="0">
-      <widget class="QComboBox" name="IPlist"/>
+      <widget class="QListWidget" name="txtMessage"/>
      </item>
      <item row="2" column="0">
-      <widget class="QListWidget" name="listmessage"/>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Client IP</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbbClientIp"/>
+       </item>
+      </layout>
      </item>
      <item row="3" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QLineEdit" name="message"/>
+        <widget class="QLineEdit" name="txtSend"/>
        </item>
        <item>
         <widget class="QPushButton" name="btnSend">
@@ -84,7 +95,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>403</width>
+     <width>400</width>
      <height>28</height>
     </rect>
    </property>

@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/digital_io.dir/main.cpp.o CMakeFiles/digital_io.dir/my_app.cpp.o -o digital_io  ../../../libethercat_driver.a ../../../libesmacat.a ../../../libethercat_driver.a -lpthread -lrt 
